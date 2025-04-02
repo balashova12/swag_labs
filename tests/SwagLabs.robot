@@ -3,8 +3,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${browser}  chrome
-${url}  file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/XAMK/Third%20year/Software%20Testing/swag_labs%20(1).html
-
+${url}  https://balashova12.github.io/swag_labs/swag_labs.html
 *** Test Cases ***
 Testing Web Page
     Open browser    ${url}  ${browser}
